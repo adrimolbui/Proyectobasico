@@ -11,11 +11,18 @@ package basicosadrianmoolina;
  */
 public class BasicosAdrianMoolina {
 
+    public static void cadenas() {
+        
+        String cadena = "prueba";
+        System.out.println("Valor variable: "+cadena);
+        
+    }
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        cadenas();
     }
     
 }
