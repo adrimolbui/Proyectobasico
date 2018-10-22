@@ -10,12 +10,21 @@ package basicosadrianmoolina;
  * @author AdriPC
  */
 public class BasicosAdrianMoolina {
+    
+    public static void logicos(){
+        int numero=5;
+        double decimal=2.5;
+    
+        
+        System.out.println("resultado " +(numero+decimal));
+        
+    }
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        logicos();
     }
     
 }
